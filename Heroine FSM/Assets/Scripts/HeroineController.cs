@@ -6,11 +6,24 @@ namespace Chapter.State
     {
         public float jumpSpeed;
         public float fallSpeed;
+
         public AudioSource crying;
+        public AudioSource tripping;
+
         public Material cry;
         public Material cube;
+        public Material acidtrip;
+        public Material ground;
+
+        public GameObject floor;
+        public GameObject sky;
+
         public ParticleSystem tears;
+
         public Rigidbody rigidBody;
+
+        //public WobbleEffect trippy;
+
         public bool _isDucking = false;
         public bool _isGrounded
         {

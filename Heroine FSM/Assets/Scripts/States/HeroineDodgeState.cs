@@ -13,11 +13,9 @@ namespace Chapter.State
 
             if (Input.GetKeyDown(KeyCode.A))
             {
-                Debug.Log("DodgeLeft");
                 _heroineController.transform.localPosition += new Vector3(-0.5f, 0.2f, 0);
             } else if (Input.GetKeyDown(KeyCode.D))
             {
-                Debug.Log("DodgeRight");
                 _heroineController.transform.localPosition += new Vector3(0.5f, 0.2f, 0);
             }
         }
